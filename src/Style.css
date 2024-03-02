@@ -1,0 +1,108 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid
+{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  /* justify-content: center; */
+}
+.calci
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+form input
+{
+    border: none;
+    width: 70px;
+    height: 70px;
+    font-size: 2em;
+    background-color: rgb(9, 9, 12);
+    margin: 2px;
+    color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+}
+.hey:hover
+{
+    background-color: green;
+}
+.all:hover
+{
+background-color: red;
+}
+.first
+{
+    flex:1;
+}
+form .first
+{
+    display: flex;
+    justify-content: flex-end;
+  margin: 10px 0px 10px 0px;
+}
+
+form .first input{
+    flex: 1;
+    font-size: 2em;
+    border-radius: 10px;
+}
+/* .last
+{
+width: 145px;
+} */
+.last:hover{
+    background-color: green;
+}
+.text
+{
+  font-size: 3em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transform:rotate(270deg);
+  color:white;
+  text-decoration: underline;
+
+}
+
+/* bank start here  */
+.submit-area 
+{
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px gray;
+  color: white;
+  background-color: rgb(51, 98, 240);
+}
+
+.account
+ {
+	margin-top: 10%;
+}
+
+.deposit {
+	background-color: rgb(103, 86, 214);
+}
+
+.withdraw {
+	background-color: rgb(237, 135, 95);
+}
+
+.balance {
+	background-color: rgb(252, 76, 45);
+}
+
+.status {
+	margin: 0 20px;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+
