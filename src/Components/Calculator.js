@@ -8,7 +8,7 @@ function Calculator() {
  <>
 
  <div className="container-fluid">
- <h1 className='text' >Calculator Using React</h1> 
+ <h1 className='text' >Calculator Using React JS</h1> 
 
   <div className="calci">
   <form action="">
