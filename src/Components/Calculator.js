@@ -43,7 +43,7 @@ function Calculator() {
 <input className='hey' type="button" value="0" onClick={e => setValue(value + e.target.value) }/>
 <input className='hey' type="button" value="00" onClick={e => setValue(value + e.target.value) }/>
   <input className='hey' type="button" value="." onClick={e => setValue(value + e.target.value) }/>
-  <input className='last' type="button" value="="onClick={e => setValue(eval(value))} />
+  <input className='last' type="button" value="="onClick={e => setValue((value))} />
 
 </div>
 
